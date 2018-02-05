@@ -46,7 +46,8 @@ public class VideoCapture: NSObject {
     }
 
     let previewLayer = AVCaptureVideoPreviewLayer(session: captureSession)
-    previewLayer.videoGravity = AVLayerVideoGravity.resizeAspectFill
+    previewLayer.videoGravity = AVLayerVideoGravity.resizeAspect
+//    previewLayer.videoGravity = AVLayerVideoGravity.resizeAspectFill // Fullscreen
     previewLayer.connection?.videoOrientation = .portrait
     self.previewLayer = previewLayer
 
