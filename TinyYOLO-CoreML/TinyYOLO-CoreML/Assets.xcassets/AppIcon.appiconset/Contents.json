@@ -11,8 +11,9 @@
       "scale" : "3x"
     },
     {
-      "idiom" : "iphone",
       "size" : "29x29",
+      "idiom" : "iphone",
+      "filename" : "computer-vision.jpg",
       "scale" : "2x"
     },
     {
@@ -31,8 +32,9 @@
       "scale" : "3x"
     },
     {
-      "idiom" : "iphone",
       "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "computer-vision-1.jpg",
       "scale" : "2x"
     },
     {
@@ -84,6 +86,12 @@
       "idiom" : "ipad",
       "size" : "83.5x83.5",
       "scale" : "2x"
+    },
+    {
+      "size" : "1024x1024",
+      "idiom" : "ios-marketing",
+      "filename" : "Icon-1024.png",
+      "scale" : "1x"
     }
   ],
   "info" : {

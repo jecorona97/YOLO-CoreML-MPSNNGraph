@@ -13,7 +13,6 @@
 		7BA1C6D61EF2861600BB25EF /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA1C6D51EF2861400BB25EF /* BoundingBox.swift */; };
 		7BA1C6D81EF2871600BB25EF /* YOLO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA1C6D71EF2871600BB25EF /* YOLO.swift */; };
 		7BA1C6DA1EF2B30200BB25EF /* CVPixelBuffer+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA1C6D91EF2B30200BB25EF /* CVPixelBuffer+Helpers.swift */; };
-		7BA1C6DC1EF2B57200BB25EF /* dog416.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BA1C6DB1EF2B56D00BB25EF /* dog416.png */; };
 		7BC25FA21EF1B7D1002ECBBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC25FA11EF1B7D1002ECBBA /* AppDelegate.swift */; };
 		7BC25FA41EF1B7D1002ECBBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC25FA31EF1B7D1002ECBBA /* ViewController.swift */; };
 		7BC25FA71EF1B7D1002ECBBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BC25FA51EF1B7D1002ECBBA /* Main.storyboard */; };
@@ -27,7 +26,6 @@
 		7BA1C6D51EF2861400BB25EF /* BoundingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BoundingBox.swift; path = ../../Common/BoundingBox.swift; sourceTree = "<group>"; };
 		7BA1C6D71EF2871600BB25EF /* YOLO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLO.swift; sourceTree = "<group>"; };
 		7BA1C6D91EF2B30200BB25EF /* CVPixelBuffer+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Helpers.swift"; sourceTree = "<group>"; };
-		7BA1C6DB1EF2B56D00BB25EF /* dog416.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dog416.png; path = ../../Common/dog416.png; sourceTree = "<group>"; };
 		7BC25F9E1EF1B7D1002ECBBA /* TinyYOLO-CoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TinyYOLO-CoreML.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BC25FA11EF1B7D1002ECBBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../Common/AppDelegate.swift; sourceTree = "<group>"; };
 		7BC25FA31EF1B7D1002ECBBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,7 +70,6 @@
 				7BC25FA81EF1B7D1002ECBBA /* Assets.xcassets */,
 				7BA1C6D51EF2861400BB25EF /* BoundingBox.swift */,
 				7BA1C6D91EF2B30200BB25EF /* CVPixelBuffer+Helpers.swift */,
-				7BA1C6DB1EF2B56D00BB25EF /* dog416.png */,
 				7B9F8D491EF2CDA700F913BD /* Helpers.swift */,
 				7BC25FAD1EF1B7D1002ECBBA /* Info.plist */,
 				7BC25FA51EF1B7D1002ECBBA /* Main.storyboard */,
@@ -112,7 +109,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = MachineThink;
 				TargetAttributes = {
 					7BC25F9D1EF1B7D1002ECBBA = {
@@ -143,7 +140,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BA1C6DC1EF2B57200BB25EF /* dog416.png in Resources */,
 				7BC25FA91EF1B7D1002ECBBA /* Assets.xcassets in Resources */,
 				7BC25FA71EF1B7D1002ECBBA /* Main.storyboard in Resources */,
 			);
@@ -202,6 +198,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -228,7 +226,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -257,6 +255,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -277,7 +277,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -289,15 +289,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MGCEKGP4Y4;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = V85L8N6EWR;
 				GCC_OPTIMIZATION_LEVEL = s;
 				INFOPLIST_FILE = "TinyYOLO-CoreML/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "net.machinethink.TinyYOLO-CoreML";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jecorona97.TinyYolo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,13 +306,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MGCEKGP4Y4;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = V85L8N6EWR;
 				INFOPLIST_FILE = "TinyYOLO-CoreML/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "net.machinethink.TinyYOLO-CoreML";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jecorona97.TinyYolo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
